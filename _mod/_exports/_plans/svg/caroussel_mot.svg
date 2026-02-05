@@ -6,7 +6,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="caroussel_mot.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,14 +25,14 @@
      units="mm"
      width="160mm"
      inkscape:zoom="0.91015363"
-     inkscape:cx="42.300551"
-     inkscape:cy="316.97945"
+     inkscape:cx="119.21064"
+     inkscape:cy="313.68331"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="-8"
-     inkscape:window-y="1072"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="1112"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="layer1"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-others="true"
@@ -40,15 +40,19 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-center="true"
      inkscape:snap-object-midpoints="true"
-     inkscape:document-units="mm">
+     inkscape:document-units="mm"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#505050">
     <sodipodi:guide
        position="302.60558,372.23427"
        orientation="1,0"
-       id="guide1162" />
+       id="guide1162"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="372.52683,302.31302"
        orientation="0,-1"
-       id="guide1183" />
+       id="guide1183"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <desc
      id="desc2">Outline to SVG export</desc>
@@ -459,7 +463,7 @@
        d="m 372.52685,302.41138 a 69.921257,69.921257 0 0 1 -69.92126,69.92125 69.921257,69.921257 0 0 1 -69.92126,-69.92125 69.921257,69.921257 0 0 1 69.92126,-69.92126 69.921257,69.921257 0 0 1 69.92126,69.92126 z" />
     <path
        sodipodi:type="star"
-       style="opacity:0.386792;fill:none;fill-opacity:0.652681;stroke:none;stroke-width:0"
+       style="display:none;opacity:0.386792;fill:none;fill-opacity:0.652681;stroke:none;stroke-width:0"
        id="path2159"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -471,6 +475,6 @@
        sodipodi:arg2="1.3089969"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 230.75773,231.85645 -30.05497,8.0532 -22.00176,-22.00176 8.0532,-30.05497 30.05497,-8.05321 22.00176,22.00177 z" />
+       d="m 230.75773,231.85644 -30.05497,8.0532 -22.00176,-22.00176 8.0532,-30.05497 30.05497,-8.0532 22.00176,22.00176 z" />
   </g>
 </svg>
