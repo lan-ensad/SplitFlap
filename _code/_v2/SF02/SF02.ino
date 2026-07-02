@@ -20,9 +20,9 @@
 #define MS3 5
 #define STEP 3
 #define DIR 2
-#define MAXSPEED 1000 //Set maximum speed
+#define MAXSPEED 650 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 340
+#define DEFAULT_STP 170
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 int count = 0; //initialisation du nombre de flaps passé sur le programme
 
