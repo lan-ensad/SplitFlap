@@ -20,9 +20,9 @@
 #define MS3 5
 #define STEP 3
 #define DIR 2
-#define MAXSPEED 600 //Set maximum speed
+#define MAXSPEED 1000 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 170
+#define DEFAULT_STP 135
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 
 
@@ -31,7 +31,7 @@ AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 //----------------------------------------------------------------------------
 int pause_standard = 1618;
 int stp = DEFAULT_STP;  //nb de steps/flap
-int init_flaps = 40; //nb de flaps passés lors du démarrage
+int init_flaps = 30; //nb de flaps passés lors du démarrage
 int timing = pause_standard; //temps entre deux flaps → l.65-69
 
 
