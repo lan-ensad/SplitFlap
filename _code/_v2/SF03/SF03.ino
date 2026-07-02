@@ -20,9 +20,9 @@
 #define MS3 5
 #define STEP 3
 #define DIR 2
-#define MAXSPEED 1000 //Set maximum speed
+#define MAXSPEED 600 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 340
+#define DEFAULT_STP 170
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 
 //----------------------------------------------------------------------------
@@ -52,7 +52,7 @@ void setup() {
   stepper.setMaxSpeed(MAXSPEED);
   stepper.setAcceleration(ACCEL);
   stepper.setCurrentPosition(0);
-  stepper.moveTo(stp);
+  stepper.moveTo(DEFAULT_STP);
   stepper.setCurrentPosition(0);
 
   delay(1000); // Pause au démarrage
