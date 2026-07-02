@@ -22,7 +22,7 @@
 #define DIR 2
 #define MAXSPEED 1000 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 340
+#define DEFAULT_STP 135
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 
 //----------------------------------------------------------------------------
@@ -30,7 +30,7 @@ AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 //----------------------------------------------------------------------------
 int range_flaps[] ={10,15}; //range (min,max) ajoute autant d'image à skip randomly
 int pause_standard = 2051;
-int init_flaps = 10; //nb de flaps passés lors du démarrage
+int init_flaps = 30; //nb de flaps passés lors du démarrage
 int timing = pause_standard; //temps entre deux flaps → l.65-69
 
 //----------------------------------------------------------------------------
