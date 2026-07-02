@@ -22,7 +22,7 @@
 #define DIR 2
 #define MAXSPEED 1000 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 170
+#define DEFAULT_STP 135
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 int count = 0; //initialisation du nombre de flaps passé sur le programme
 
