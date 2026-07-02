@@ -45,9 +45,9 @@ void setup() {
   pinMode(MS3, OUTPUT);
 
   digitalWrite(EN, 0);  //0=ON ; 1=OFF
-  digitalWrite(MS1, 0);
-  digitalWrite(MS2, 0);
-  digitalWrite(MS2, 0);
+  digitalWrite(MS1, 1);
+  digitalWrite(MS2, 2);
+  digitalWrite(MS3, 0);
 
   stepper.setMaxSpeed(MAXSPEED);
   stepper.setAcceleration(ACCEL);
