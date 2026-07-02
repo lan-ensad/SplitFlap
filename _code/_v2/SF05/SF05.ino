@@ -20,9 +20,9 @@
 #define MS3 5
 #define STEP 3
 #define DIR 2
-#define MAXSPEED 600 //Set maximum speed
+#define MAXSPEED 1000 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 170
+#define DEFAULT_STP 340
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 
 //----------------------------------------------------------------------------
@@ -45,9 +45,9 @@ void setup() {
   pinMode(MS3, OUTPUT);
 
   digitalWrite(EN, 0);  //0=ON ; 1=OFF
-  digitalWrite(MS1, 0);
-  digitalWrite(MS2, 0);
-  digitalWrite(MS2, 0);
+  digitalWrite(MS1, 1);
+  digitalWrite(MS2, 1);
+  digitalWrite(MS3, 0);
 
   stepper.setMaxSpeed(MAXSPEED);
   stepper.setAcceleration(ACCEL);
