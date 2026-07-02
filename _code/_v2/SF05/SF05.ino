@@ -20,15 +20,15 @@
 #define MS3 5
 #define STEP 3
 #define DIR 2
-#define MAXSPEED 1000 //Set maximum speed
+#define MAXSPEED 600 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 340
+#define DEFAULT_STP 170
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 
 //----------------------------------------------------------------------------
 //                           Variable à modifier
 //----------------------------------------------------------------------------
-int range_flaps[] ={34,55}; //range (min,max) ajoute autant d'image à skip randomly
+int range_flaps[] ={10,15}; //range (min,max) ajoute autant d'image à skip randomly
 int pause_standard = 2051;
 int init_flaps = 10; //nb de flaps passés lors du démarrage
 int timing = pause_standard; //temps entre deux flaps → l.65-69
