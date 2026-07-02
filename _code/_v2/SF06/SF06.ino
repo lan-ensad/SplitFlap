@@ -15,14 +15,14 @@
 //                            INITIALISATION
 //----------------------------------------------------------------------------
 #define EN 21
-#define MS1 7
+#define MS1 7u
 #define MS2 6
 #define MS3 5
 #define STEP 3
 #define DIR 2
-#define MAXSPEED 600 //Set maximum speed
+#define MAXSPEED 1000 //Set maximum speed
 #define ACCEL 450 //Set acceleration
-#define DEFAULT_STP 170
+#define DEFAULT_STP 135
 AccelStepper stepper(AccelStepper::DRIVER, STEP, DIR);
 int count = 0; //initialisation du nombre de flaps passé sur le programme
 
@@ -31,7 +31,7 @@ int count = 0; //initialisation du nombre de flaps passé sur le programme
 //----------------------------------------------------------------------------
 int pause_longue = 5019;
 int pause_standard = 1111;
-int init_flaps = 10; //nb de flaps passés lors du démarrage
+int init_flaps = 30; //nb de flaps passés lors du démarrage
 int pause_after = 13; //pause plus longue après nb flaps
 int timing = pause_standard; //temps entre deux flaps
 
@@ -48,9 +48,9 @@ void setup() {
   pinMode(MS3, OUTPUT);
 
   digitalWrite(EN, 0);  //0=ON ; 1=OFF
-  digitalWrite(MS1, 0);
-  digitalWrite(MS2, 0);
-  digitalWrite(MS2, 0);
+  digitalWrite(MS1, 1);
+  digitalWrite(MS2, 1);
+  digitalWrite(MS3, 0);
 
   stepper.setMaxSpeed(MAXSPEED);
   stepper.setAcceleration(ACCEL);
